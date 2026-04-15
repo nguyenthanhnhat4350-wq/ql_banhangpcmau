@@ -1,0 +1,80 @@
+/* FOOTER PREMIUM DARK */
+.highlands-footer {
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    padding: 60px 20px 40px;
+    position: relative;
+    border-top: 1px solid #222;
+}
+
+.footer-green-strip {
+    height: 3px;
+    background: linear-gradient(90deg, #d4af37, #f3e5ab, #d4af37); /* Strip màu vàng óng */
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+}
+
+.footer-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 50px;
+}
+
+.footer-column-title {
+    color: #d4af37;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.footer-column-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    background-color: #d4af37;
+}
+
+.footer-links a {
+    color: #aaa;
+    font-size: 14px;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+.footer-links a:hover {
+    color: #fff;
+    transform: translateX(5px); /* Trượt nhẹ sang phải */
+}
+
+.social-icon {
+    background-color: #1a1a1a;
+    color: #d4af37;
+    border: 1px solid #333;
+    transition: all 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #d4af37;
+    color: #0a0a0a;
+    transform: translateY(-5px);
+}
+
+.footer-map__iframe {
+    border-radius: 12px;
+    filter: grayscale(80%) invert(100%) contrast(120%); /* Làm bản đồ hợp với Dark Mode */
+    border: 1px solid #333;
+}
+
+.footer-chat-icon {
+    background: linear-gradient(135deg, #d4af37, #aa8529);
+    color: #121212;
+    border: none;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+}
+.footer-chat-icon i { color: #121212; }
